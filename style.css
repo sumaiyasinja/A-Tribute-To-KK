@@ -70,7 +70,6 @@ header >h1:hover{
 }
 
 .mheading {
-    display: inline;
     text-shadow: 0 .5rem 1rem rgb(117, 117, 117);
     margin: 10px;
     padding: 10px;
@@ -266,18 +265,29 @@ footer {
 
         }
         .container> img{
-            height: 60%;
-            width: 70%;
+            /* height: 60%;
+            width: 70%; */
         }
-        /* .micgallery{
+       
+        .micgallery{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            justify-content: space-around;
-            gap: 2px;
-        } */
+            justify-content: center;
+            gap: 2rem;
+            padding: 0rem 2rem;
+            padding-left: 4rem;
+        }
         .micbox {
-            width: 52%;
+            width: 85%;
+            
        }
+       .miccontainer{
+        margin: 5rem 0rem;
+        
+    }
+    .mheading{
+        margin: 1rem;
+    }
 
         .biotext {
             padding: 2rem;
